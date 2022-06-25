@@ -1,0 +1,140 @@
+* {
+    margin: 0rem;
+    padding: 0rem;
+}
+
+body {
+    background-color: darkgray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.sectionA{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: black;
+}
+
+.logo{
+    background-color: black;
+}
+
+li:hover{
+    color: red;
+}
+
+a:hover{
+    color: red;
+}
+
+li{
+    list-style-type: none;
+    padding-bottom: 4rem;
+    padding-left: 3.5rem;
+    letter-spacing: 5px;
+    word-spacing: 7px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.boton-volver{
+    border: 0px;
+    font-size: 5rem;
+}
+
+.boton-verMas{
+    width: 9rem;
+    background-color: lightgray;
+    border-radius: 5px;
+    color: black;
+}
+
+.imgs{
+    width: 18rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    background-color: black;
+    border: 10px solid black;
+    border-radius: 5px;
+}
+
+.detalles-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    border-radius: 5px;
+    border: 10px solid whitesmoke;
+    padding: 3rem;
+}
+
+.trailer-principal{
+    font-size: 3rem;
+    color: black;
+    padding: 5px;
+}
+
+.titulo-principal{
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.img-principal{
+    width: 30rem;
+}
+
+.descripcion-principal{
+    font-size: 1.5rem;
+}
+
+.sectionB{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 6rem;
+}
+
+.sectionC{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 9rem;
+
+    background-image: url(./assets/img/backgroundc.JPG);
+	background-position: center; 
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+ 
+.sectionD{
+    background-color: black;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
